@@ -1,5 +1,5 @@
 [package]
-name = "nvidia-smi-rs"
+name = "nvidia-smi"
 version = "0.1.0"
 authors = ["Yasuyuki YAMADA <yasuyuki.ymd@gmail.com>"]
 
