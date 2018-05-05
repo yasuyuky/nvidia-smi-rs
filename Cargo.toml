@@ -1,0 +1,6 @@
+[package]
+name = "nvidia-smi-rs"
+version = "0.1.0"
+authors = ["Yasuyuki YAMADA <yasuyuki.ymd@gmail.com>"]
+
+[dependencies]
