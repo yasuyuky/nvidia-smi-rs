@@ -57,6 +57,7 @@ GPU 00000000:84:00.0
 
         "#;
         let nvidia_smi_mem_result = nvidia_smi_q_d_memory.parse::<NvidiaSmiMemResult>();
-        assert!(nvidia_smi_mem_result.is_ok())
+        assert!(nvidia_smi_mem_result.is_ok());
+        println!("{}", nvidia_smi_mem_result.unwrap());
     }
 }
